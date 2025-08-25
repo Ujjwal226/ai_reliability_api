@@ -22,7 +22,7 @@ if __name__ == "__main__":
     from fastapi import FastAPI
     from fastapi.responses import JSONResponse
     from fastapi.routing import APIRouter
-    import uvicorn  # used internally, but you won’t call it yourself
+    import uvicorn  
 
     print("Starting FastAPI server...")
 
