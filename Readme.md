@@ -8,6 +8,6 @@ In **Week 1**, the focus was on setting up the foundation:
 - `/health` endpoint to check service availability  
 - Local run setup (no Docker for now)  
 - Verified functionality using **Swagger UI**  
-
+- Till week 1 readme
 
 
