@@ -1,0 +1,48 @@
+{
+  "info": {
+    "name": "AI Reliability API - Week 1",
+    "_postman_id": "12345678-abcd-efgh-ijkl-987654321000",
+    "description": "Postman collection to test Week 1 API skeleton for AI Reliability Dashboard.",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "item": [
+    {
+      "name": "Root Endpoint",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://127.0.0.1:8000/",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "8000"
+        }
+      }
+    },
+    {
+      "name": "Health Check",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://127.0.0.1:8000/health",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "8000",
+          "path": ["health"]
+        }
+      }
+    },
+    {
+      "name": "API Docs",
+      "request": {
+        "method": "GET",
+        "url": {
+          "raw": "http://127.0.0.1:8000/docs",
+          "protocol": "http",
+          "host": ["127.0.0.1"],
+          "port": "8000",
+          "path": ["docs"]
+        }
+      }
+    }
+  ]
+}
